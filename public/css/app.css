@@ -1265,6 +1265,6 @@ visibility:hidden;
 }
 .mainratingblock {
   width: 100%;
-  border: thin solid green;
+  padding: 8px;
   height: 30px;
 }
