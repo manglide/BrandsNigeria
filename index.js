@@ -54,11 +54,11 @@ app.get('/', function (req, res) {
       ?
       "<div class='row'>"+
       "<div class='paper' itemscope itemtype='http://schema.org/Product'><div class='c15'><div class='col'>"+
-      "<div class='card bg-light mb-3'>"+
+      "<div class='card bg-light mb-3 smallCard'>"+
       "<div class='card-header' style='background: #fff; color:#444'>"+
       "<span itemprop='name'>"+item.productname+"</span>"+
       "<div itemprop='category' class='productpagebTagCategory' itemscope itemtype='http://schema.org/manufacturer'>"+item.category.toUpperCase()+"</div>"+
-      "<div class='productpagebTag'>BY</div>"+
+      "<div class='productpagebTagBy'>BY</div>"+
       "<div class='productpagebTag' itemprop='manufacturer' itemscope itemtype='http://schema.org/manufacturer'>"+item.manufacturer.toUpperCase()+"</div>"+
       "</div>"+
       "<img itemprop='image' class='card-img-top productImage' src='"+item.productImage_1+"' title='"+item.productname+"' alt='"+item.productname+"'>"+
@@ -70,11 +70,11 @@ app.get('/', function (req, res) {
         "</div>"+ // End of afterRatingDivPriceCom
         "<div class='ThumbsUp'>"+
         "<div class='ThumbsUpChildren'>"+
-        "<a href='#' class='btn btn-success btn-lg'><span class='glyphicon glyphicon-thumbs-up fa-2x'></span></a>"+
+        "<a href='#' class='btn btn-success btn-sm'><span class='fa fa-thumbs-up fa-1x'></span></a>"+
         "<div class='textBelowRatings'>"+item.likes+"</div>"+
         "</div>"+ // End of ThumbsUp Children 1
         "<div class='ThumbsUpChildren'>"+
-        "<a href='#' class='btn btn-danger btn-lg'><span class='glyphicon glyphicon-thumbs-up fa-2x'></span></a>"+
+        "<a href='#' class='btn btn-danger btn-sm'><span class='fa fa-thumbs-down fa-1x'></span></a>"+
         "<div class='textBelowRatings'>"+item.dislikes+"</div>"+
         "</div>"+ // End of ThumbsUp Children 2
         "</div>"+ // End of Thumbs Up
@@ -118,11 +118,11 @@ app.get('/', function (req, res) {
       ((((index % 4) - 3) == 0) && ((index - index) == 0))
       ?
       "<div class='paper' itemscope itemtype='http://schema.org/Product'><div class='c15'><div class='col'>"+
-      "<div class='card bg-light mb-3'>"+
+      "<div class='card bg-light mb-3 smallCard'>"+
       "<div class='card-header' style='background: #fff; color:#444'>"+
       "<span itemprop='name'>"+item.productname+"</span>"+
       "<div itemprop='category' class='productpagebTagCategory' itemscope itemtype='http://schema.org/manufacturer'>"+item.category.toUpperCase()+"</div>"+
-      "<div class='productpagebTag'>BY</div>"+
+      "<div class='productpagebTagBy'>BY</div>"+
       "<div class='productpagebTag' itemprop='manufacturer' itemscope itemtype='http://schema.org/manufacturer'>"+item.manufacturer.toUpperCase()+"</div>"+
       "</div>"+
       "<img itemprop='image' class='card-img-top productImage' src='"+item.productImage_1+"' title='"+item.productname+"' alt='"+item.productname+"'>"+
@@ -134,11 +134,11 @@ app.get('/', function (req, res) {
           "</div>"+ // End of afterRatingDivPriceCom
           "<div class='ThumbsUp'>"+
           "<div class='ThumbsUpChildren'>"+
-          "<a href='#' class='btn btn-success btn-lg'><span class='glyphicon glyphicon-thumbs-up fa-2x'></span></a>"+
+          "<a href='#' class='btn btn-success btn-sm'><span class='fa fa-thumbs-up fa-1x'></span></a>"+
           "<div class='textBelowRatings'>"+item.likes+"</div>"+
           "</div>"+ // End of ThumbsUp Children 1
           "<div class='ThumbsUpChildren'>"+
-          "<a href='#' class='btn btn-danger btn-lg'><span class='glyphicon glyphicon-thumbs-up fa-2x'></span></a>"+
+          "<a href='#' class='btn btn-danger btn-sm'><span class='fa fa-thumbs-down fa-1x'></span></a>"+
           "<div class='textBelowRatings'>"+item.dislikes+"</div>"+
           "</div>"+ // End of ThumbsUp Children 2
           "</div>"+ // End of Thumbs Up
@@ -184,7 +184,7 @@ app.get('/', function (req, res) {
       "<div class='card-header' style='background: #fff; color:#444'>"+
       "<span itemprop='name'>"+item.productname+"</span>"+
       "<div itemprop='category' class='productpagebTagCategory' itemscope itemtype='http://schema.org/manufacturer'>"+item.category.toUpperCase()+"</div>"+
-      "<div class='productpagebTag'>BY</div>"+
+      "<div class='productpagebTagBy'>BY</div>"+
       "<div class='productpagebTag' itemprop='manufacturer' itemscope itemtype='http://schema.org/manufacturer'>"+item.manufacturer.toUpperCase()+"</div>"+
       "</div>"+
       "<img itemprop='image' class='card-img-top productImage' src='"+item.productImage_1+"' title='"+item.productname+"' alt='"+item.productname+"'>"+
@@ -196,11 +196,11 @@ app.get('/', function (req, res) {
           "</div>"+ // End of afterRatingDivPriceCom
           "<div class='ThumbsUp'>"+
           "<div class='ThumbsUpChildren'>"+
-          "<a href='#' class='btn btn-success btn-lg'><span class='glyphicon glyphicon-thumbs-up fa-2x'></span></a>"+
+          "<a href='#' class='btn btn-success btn-sm'><span class='fa fa-thumbs-up fa-1x'></span></a>"+
           "<div class='textBelowRatings'>"+item.likes+"</div>"+
           "</div>"+ // End of ThumbsUp Children 1
           "<div class='ThumbsUpChildren'>"+
-          "<a href='#' class='btn btn-danger btn-lg'><span class='glyphicon glyphicon-thumbs-up fa-2x'></span></a>"+
+          "<a href='#' class='btn btn-danger btn-sm'><span class='fa fa-thumbs-down fa-1x'></span></a>"+
           "<div class='textBelowRatings'>"+item.dislikes+"</div>"+
           "</div>"+ // End of ThumbsUp Children 2
           "</div>"+ // End of Thumbs Up
