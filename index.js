@@ -106,6 +106,7 @@ app.get('/', function (req, res) {
           "<div class='ingredientsTitle'><small class='text-muted'>Ingredients</small></div>"+
           "<p class='dients'>"+item.ingredients+"</p>"+
           "</div>"+ // End the Ingredients Div
+          "</div>"+ // End the afterRatingDivs Div
           "<a href='#' class='card-link'>"+
           "<button type='button' class='btn-success btn-sm btn-block'>"+
           "View</button>"+
@@ -169,6 +170,7 @@ app.get('/', function (req, res) {
           "<div class='ingredientsTitle'><small class='text-muted'>Ingredients</small></div>"+
           "<p class='dients'>"+item.ingredients+"</p>"+
           "</div>"+ // End the Ingredients Div
+          "</div>"+ // End the afterRatingDivs Div
           "<a href='#' class='card-link'>"+
           "<button type='button' class='btn-success btn-sm btn-block'>"+
           "View</button>"+
@@ -230,6 +232,7 @@ app.get('/', function (req, res) {
           "<div class='ingredientsTitle'><small class='text-muted'>Ingredients</small></div>"+
           "<p class='dients'>"+item.ingredients+"</p>"+
           "</div>"+ // End the Ingredients Div
+          "</div>"+ // End the afterRatingDivs Div
           "<a href='#' class='card-link'>"+
           "<button type='button' class='btn-success btn-sm btn-block'>"+
           "View</button>"+
