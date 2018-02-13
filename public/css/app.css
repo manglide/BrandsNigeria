@@ -1263,3 +1263,8 @@ visibility:hidden;
 .productpagebTagBy {
   color:#444;
 }
+.mainratingblock {
+  width: 100%;
+  border: thin solid green;
+  height: 30px;
+}

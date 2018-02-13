@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Creating Stronger Brands Using Location Intelligence",
   "scripts": {
-    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+    "start": "nodemon lib/index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js",
+    "test": "mocha --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
@@ -32,10 +35,12 @@
     "babel-eslint": "^8.2.1",
     "babel-jscs": "^3.0.0-beta1",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
+    "mocha": "^5.0.0",
     "nodemon": "^1.14.12"
   }
 }
