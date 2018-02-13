@@ -223,7 +223,7 @@ font-size: 18px;
   padding: 8px;
 }
 .c15 {
-  width: 313px;
+  max-width: 320px;
   padding: 16px;
   overflow: hidden;
   border-radius: 2px;
