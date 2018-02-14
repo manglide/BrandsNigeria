@@ -1268,3 +1268,22 @@ visibility:hidden;
   padding: 8px;
   height: 30px;
 }
+.nav {
+  color: #fff;
+  background-color: #28a745;
+  width: 100%;
+  height: 53px;
+  line-height: 56px;
+}
+nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 10;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.nav-wrapper {
+  background: #28a745;
+}

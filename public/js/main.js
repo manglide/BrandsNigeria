@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$(".dropdown-button").dropdown({hover: false});
 	$(function () {
     const ele = document.getElementById('ipl-progress-indicator')
     if (ele) {
