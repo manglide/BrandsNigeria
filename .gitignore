@@ -4,4 +4,5 @@ dist
 *.log
 coverage
 .idea
+lib/old_index.txt
 Business Model And Plan/images
