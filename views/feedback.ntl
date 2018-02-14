@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Nigeria Brands - Consumer Sentiment Index With Location Intelligence</title>
+    <title>Nigeria Brands - Feedback</title>
     <meta name="description" content="Nigeria Brands and Consumer Product Reviews using Location Intelligence">
-    <meta name="keywords" content="#keywords#"/>
-    #meta#
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -25,8 +23,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="css/app.css" rel="stylesheet">
     <link href="css/brands.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
   </head>
   <body>
     <div class="containerx">
@@ -48,15 +46,15 @@
 </nav>
       </div>
     <div id="root">
-    #con#
+    #feedback#
     </div>
     <div class="footer">
       <hr />
-<footer id="footer" class="footer">
-	<div class="copyright">
-		  Copyright © 2018<br />BrandsNigeria is a subsidiary of Ask - Tech Solutions. | Nigeria's first Big Data and Analytics Company.
-	</div>
-</footer>
+      <footer id="footer" class="footer">
+      	<div class="copyright">
+      		  Copyright © 2018<br />BrandsNigeria is a subsidiary of Ask - Tech Solutions. | Nigeria's first Big Data and Analytics Company.
+      	</div>
+      </footer>
     </div>
   </div>
   </body>
