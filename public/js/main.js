@@ -32,6 +32,17 @@ $(document).ready(function() {
 		 }
 	 });
 
+	 $('span.commentrates').each(function(i, obj) {
+		 var rateVal = $(this).attr("data");
+		 var rateValMod = rateVal % 1;
+		 if(rateValMod !== 0) {
+			 if($(this).parent().attr("id") !== undefined) {
+				 var pT = document.getElementById($(this).parent().attr("id"));
+				 $(pT).append("<i class='fa fa-star-half-full' />");
+			 }
+		 }
+	 });
+
 	 // Get Data For Like Chart
 	 var productsreviewlikes = document.getElementById("productsreviewlikes");
 	 var products = $(productsreviewlikes).attr("data").split(/[,]+/).join();
@@ -60,4 +71,9 @@ $(document).ready(function() {
 	 var dataRejection = document.getElementById("AreaRejectionMapElem");
 	 var rejData = $(dataRejection).attr("data");
 	 preMapCallReject(rejData);
+	 // Append User Comments Template
+	 var comments = document.getElementById("customerreviews");
+	 var productId = $(comments).attr("data");
+	 console.log(productId);
+	 commentsLoad(productId);
 });

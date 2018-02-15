@@ -61,6 +61,28 @@
     $(el).css({'height':'auto'});
     el.innerHTML = "<div class='noLocationDataFound'>No Location Data Found</div>";
   }
+  function commentsLoad(pid) {
+    $.ajax(
+            {
+                url : '/comments',
+                type: "POST",
+                data: {data: pid},
+                beforeSend: function ()
+                {
+                   $('#customerreviews').html('<div><i class="fa fa-refresh fa-spin"></i></div>');
+                },
+                success:function(response)
+                {
+                  console.log(response);
+                  $("#customerreviews").empty().html(response);
+                },
+                error: function()
+                {
+										$("#customerreviews").fadeIn(2000).html('<div style="text-align:center;font-size:16px;color:#5CB85C;font-family: Open Sans, sans-serif;">Operation failed</div>');
+                }
+            });
+  }
+
   function preMapCallAccept(pid) {
     $.ajax(
             {
