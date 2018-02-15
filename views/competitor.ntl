@@ -1,0 +1,63 @@
+<div class='paper' itemscope itemtype='http://schema.org/Product'><div class='c15'><div class='col'>
+<div class='card bg-light mb-3 smallCard'>
+<div class='card-header' style='background: #fff; color:#444'>
+<span itemprop='name'>#productname#</span>
+<div itemprop='category' class='productpagebTagCategory' itemscope itemtype='http://schema.org/manufacturer'>#category#</div>
+<div class='productpagebTagBy'>BY</div>
+<div class='productpagebTag' itemprop='manufacturer' itemscope itemtype='http://schema.org/manufacturer'>#manufacturer#</div>
+</div>
+<img itemprop='image' class='card-img-top productImage' src='#productImage_1#' title='#productname2#' alt='#productname3#'>
+<div class='mainratingblock'>
+<!-- Rating Block -->
+</div>
+<div class='card-body cardContent'>
+<p class='card-text'>#description#</p>
+  <div class='afterRatingDiv'>
+  <div class='afterRatingDivPriceCom'>
+  <div class='mainpriceSmall'>N#price#</div>
+  </div> <!-- End of afterRatingDivPriceCom -->
+  <div class='ThumbsUp'>
+  <div class='ThumbsUpChildren'>
+  <a href='#' class='btn btn-success btn-sm'><span class='fa fa-thumbs-up fa-1x'></span></a>
+  <div class='textBelowRatings'>#likes#</div>
+  </div> <!-- End of ThumbsUp Children 1 -->
+  <div class='ThumbsUpChildren'>
+  <a href='#' class='btn btn-danger btn-sm'><span class='fa fa-thumbs-down fa-1x'></span></a>
+  <div class='textBelowRatings'>#dislikes#</div>
+  </div> <!-- End of ThumbsUp Children 2 -->
+  </div> <!-- End of Thumbs Up -->
+  <div class='cardSentiment'>
+  <div class='cardTitleInnerExtendedChildren'>
+  <div style='width: 20%;position: absolute;float: left;'><span><i class='material-icons' style='font-size:20px; left: 1px;'>#trend#</i></span><div class='textBelowRatingTrends'>#trend_direction#</div></div>
+  </div> <!-- End of cardTitleInnerExtendedChildren -->
+  </div> <!-- End of Card Sentiment -->
+  <div class='SentimentsDiv'>
+  <div class='cardTitleInnerExtendedChildren'>
+  <div><span><i class='material-icons' style='font-size:25px;color:red'>#sentiment#</i></span><div class='textBelowRatingSentiment'>#sentiment_mood#</div></div>
+  </div> <!-- End of cardTitleInnerExtendedChildren -->
+  <div class=''> <!-- Start of Favorites Enclosing Div -->
+  <div class='cardTitleInnerExtendedChildren likebtn'>
+  <div><span><i class='material-icons' style='font-size:25px;'>favorite</i></span><div class='textBelowRatingSentiment'>Like</div></div>
+  </div> <!-- End of likebtn Enclosing Div -->
+  <div class='cardTitleInnerExtendedChildren sharebtn'>
+  <div><span><i class='material-icons' style='font-size:25px;'>share</i></span><div class='textBelowRatingSentiment'>Share</div></div>
+  </div> <!-- End of sharebtn Enclosing Div -->
+  <div class='cardTitleInnerExtendedChildren commentbtn'>
+  <div><span><i class='fa fa-comments-o' style='font-size:25px;'></i></span><div class='peoplebtnText'>#usercomments#</div></div>
+  </div> <!-- End of commentbtn Enclosing Div -->
+  <div class='cardTitleInnerExtendedChildren locationbtn'>
+  <div><span><i class='material-icons' style='font-size:25px;'>location_on</i></span><div class='locationbtnText'>#locationcount#</div></div>
+  </div> <!-- End of locationbtn Enclosing Div -->
+  </div> <!-- End of Favorites Enclosing Div -->
+  </div> <!-- End of Sentiment Div -->
+  <div> <!-- Start the Ingredients Div -->
+  <div class='ingredientsTitle'><small class='text-muted'>Ingredients</small></div>
+  <p class='dients'>#ingredients#</p>
+  </div> <!-- End the Ingredients Div -->
+  </div> <!-- End the afterRatingDivs Div -->
+  <a href='/product/#productname4#' class='card-link'>
+  <button type='button' class='btn-success btn-sm btn-block'>View</button>
+  </a>
+</div>
+</div>
+</div></div></div>

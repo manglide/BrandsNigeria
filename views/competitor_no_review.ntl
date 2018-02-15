@@ -1,0 +1,18 @@
+<div class='paper' itemscope itemtype='http://schema.org/Product'><div class='c15'><div class='col'>
+<div class='card bg-light mb-3 smallCard'>
+<div class='card-header' style='background: #fff; color:#444'>
+<span itemprop='name'>#productname#</span>
+<div itemprop='category' class='productpagebTagCategory' itemscope itemtype='http://schema.org/manufacturer'>#category#</div>
+</div> <!-- End of card-header DIV -->
+<img itemprop='image' class='card-img-top productImage' src='https://asknigeria.com.ng/brands/images/default-product.png' title='#productname#' alt='#productname#'>
+<div class='mainratingblock'>
+<!-- Rating Block -->
+</div>
+<div class='card-body cardContent'>
+  <a href='#' class='card-link'>
+  <button type='button' class='btn-success btn-sm btn-block'>
+  Not yet Reviewed</button>
+  </a>
+</div> <!-- End of cardContent DIV -->
+</div> <!-- End of smallCard DIV -->
+</div></div></div>
