@@ -72,8 +72,8 @@ $(document).ready(function() {
 	 var rejData = $(dataRejection).attr("data");
 	 preMapCallReject(rejData);
 	 // Append User Comments Template
-	 var comments = document.getElementById("customerreviews");
-	 var productId = $(comments).attr("data");
-	 console.log(productId);
-	 commentsLoad(productId);
+	 //var comments = document.getElementById("customerreviews");
+	 //var productId = $(comments).attr("data");
+	 //console.log(productId);
+	 //commentsLoad(productId);
 });
