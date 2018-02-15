@@ -71,9 +71,4 @@ $(document).ready(function() {
 	 var dataRejection = document.getElementById("AreaRejectionMapElem");
 	 var rejData = $(dataRejection).attr("data");
 	 preMapCallReject(rejData);
-	 // Append User Comments Template
-	 //var comments = document.getElementById("customerreviews");
-	 //var productId = $(comments).attr("data");
-	 //console.log(productId);
-	 //commentsLoad(productId);
 });
