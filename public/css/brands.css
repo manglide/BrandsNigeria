@@ -203,8 +203,16 @@ font-family: 'Open Sans Condensed', sans-serif;
 font-size: 22px;
 }
 .panelanchortext {
-font-family: 'Open Sans Condensed', sans-serif;
-font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  color:#fff;
+  text-decoration: none;
+}
+.panelanchortext:hover {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  color:#fff;
+  text-decoration: none;
 }
 
 .navbar {
