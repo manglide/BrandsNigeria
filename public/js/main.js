@@ -21,6 +21,16 @@ $(document).ready(function() {
 			 }
 		 }
 	 });
+	 $('span.ratesPage').each(function(i, obj) {
+		 var rateVal = $(this).attr("data");
+		 var rateValMod = rateVal % 1;
+		 if(rateValMod !== 0) {
+			 if($(this).parent().attr("id") !== undefined) {
+				 var pT = document.getElementById($(this).parent().attr("id"));
+				 $(pT).append("<i style='font-size:38px;color:red;' class='fa fa-star-half-full' />");
+			 }
+		 }
+	 });
 
 	 // Get Data For Like Chart
 	 var productsreviewlikes = document.getElementById("productsreviewlikes");
