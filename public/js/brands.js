@@ -30,7 +30,7 @@
   }
 
   function AreaAcceptanceMapFunc(areas, lat, lon) {
-    var map = new google.maps.Map(document.getElementById('AreaAcceptanceMapElem'),
+    var map = new google.maps.Map(document.getElementById('mapstoreacc'),
                   {center: {lat: lat, lng: lon}, zoom: 13});
     areas.map(function(item, index) {
       var myLatLng = {lat: item.latitude, lng: item.longitude};
@@ -41,7 +41,7 @@
     });
   }
   function AreaRejectionMapFunc(areas, lat, lon) {
-    var map = new google.maps.Map(document.getElementById('AreaRejectionMapElem'),
+    var map = new google.maps.Map(document.getElementById('mapstorerej'),
                   {center: {lat: lat, lng: lon}, zoom: 13});
     areas.map(function(item, index) {
       var myLatLng = {lat: item.latitude, lng: item.longitude};
@@ -52,16 +52,17 @@
     });
   }
   function AreaAcceptanceMapFuncNoData() {
-    var el = document.getElementById('AreaAcceptanceMapElem');
+    var el = document.getElementById('mapstoreacc');
     $(el).css({'height':'auto'});
     el.innerHTML = "<div class='noLocationDataFound'>No Location Data Found</div>";
   }
   function AreaRejectionMapFuncNoData() {
-    var el = document.getElementById('AreaRejectionMapElem');
+    var el = document.getElementById('mapstorerej');
     $(el).css({'height':'auto'});
     el.innerHTML = "<div class='noLocationDataFound'>No Location Data Found</div>";
   }
   function preMapCallAccept(pid) {
+    console.log(pid);
     $.ajax(
             {
                 url : '/areasofacceptance',
@@ -69,11 +70,12 @@
                 data: {data: pid},
                 beforeSend: function ()
                 {
-                   $('#AreaAcceptanceMapElem').html('<div><i class="fa fa-refresh fa-spin"></i></div>');
+                   $('#mapstoreacc').html('<div><i class="fa fa-refresh fa-spin"></i></div>');
                 },
                 success:function(response)
                 {
                   var areas = JSON.parse(response).data.map(obj => obj);
+                  console.log(areas);
                   if (areas.length === 0) {
                     AreaAcceptanceMapFuncNoData();
                   } else {
@@ -82,7 +84,7 @@
                 },
                 error: function()
                 {
-										$("#AreaAcceptanceMapElem").fadeIn(2000).html('<div style="text-align:center;font-size:16px;color:#5CB85C;font-family: Open Sans, sans-serif;">Operation failed</div>');
+										$("#mapstoreacc").fadeIn(2000).html('<div style="text-align:center;font-size:16px;color:#5CB85C;font-family: Open Sans, sans-serif;">Operation failed</div>');
                 }
             });
   }
@@ -94,7 +96,7 @@
                 data: {data: pid},
                 beforeSend: function ()
                 {
-                   $('#AreaRejectionMapElem').html('<div><i class="fa fa-refresh fa-spin"></i></div>');
+                   $('#mapstorerej').html('<div><i class="fa fa-refresh fa-spin"></i></div>');
                 },
                 success:function(response)
                 {
@@ -107,7 +109,7 @@
                 },
                 error: function()
                 {
-										$("#AreaRejectionMapElem").fadeIn(2000).html('<div style="text-align:center;font-size:16px;color:#5CB85C;font-family: Open Sans, sans-serif;">Operation failed</div>');
+										$("#mapstorerej").fadeIn(2000).html('<div style="text-align:center;font-size:16px;color:#5CB85C;font-family: Open Sans, sans-serif;">Operation failed</div>');
                 }
             });
   }
