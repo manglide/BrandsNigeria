@@ -50,10 +50,6 @@
   </div> <!-- End of locationbtn Enclosing Div -->
   </div> <!-- End of Favorites Enclosing Div -->
   </div> <!-- End of Sentiment Div -->
-  <div> <!-- Start the Ingredients Div -->
-  <div class='ingredientsTitle'><small class='text-muted'>Ingredients</small></div>
-  <p class='dients'>#ingredients#</p>
-  </div> <!-- End the Ingredients Div -->
   </div> <!-- End the afterRatingDivs Div -->
   <a href='/product/#productname4#' class='card-link'>
   <button type='button' class='btn-success btn-sm btn-block'>View</button>
