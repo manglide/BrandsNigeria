@@ -60,7 +60,7 @@
             <a href="#!" class="brand-logo">Brands Nigeria</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
-                <!--<li><a href="#"><i class="material-icons">search</i></a></li>-->
+                <li><a href="#"><i class="material-icons">search</i></a></li>
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">more_vert</i></a></li>
                 <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>-->
               </ul>
@@ -68,25 +68,6 @@
           </nav>
         </div>
     </div>
-    <!--<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>-->
     <div id="root">
     #con#
     </div>

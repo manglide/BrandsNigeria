@@ -124,7 +124,8 @@
                 },
                 success:function(response)
                 {
-                  var _load = response;
+                  const areasX = JSON.parse(response).data.map(obj => obj);
+                  var _load = areasX;
                                   this.point = [];
                                                           for(var key in _load) {
                                                                 if(_load.hasOwnProperty(key)) {
@@ -196,7 +197,8 @@
                 },
                 success:function(response)
                 {
-                  var _load = response;
+                  const areasX = JSON.parse(response).data.map(obj => obj);
+                  var _load = areasX;
                                   this.point = [];
                                                           for(var key in _load) {
                                                                 if(_load.hasOwnProperty(key)) {
@@ -269,7 +271,8 @@
                 },
                 success:function(response)
                 {
-                  var _load = response;
+                  const areasX = JSON.parse(response).data.map(obj => obj);
+                  var _load = areasX;
                                   this.point = [];
                                                           for(var key in _load) {
                                                                 if(_load.hasOwnProperty(key)) {

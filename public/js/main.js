@@ -27,7 +27,7 @@ $(document).ready(function() {
 		 if(rateValMod !== 0) {
 			 if($(this).parent().attr("id") !== undefined) {
 				 var pT = document.getElementById($(this).parent().attr("id"));
-				 $(pT).append("<i style='font-size:38px;color:red;' class='fa fa-star-half-full' />");
+				 $(pT).append("<i style='font-size:38px;color:#000;' class='fa fa-star-half-full' />");
 			 }
 		 }
 	 });
@@ -38,7 +38,7 @@ $(document).ready(function() {
 		 if(rateValMod !== 0) {
 			 if($(this).parent().attr("id") !== undefined) {
 				 var pT = document.getElementById($(this).parent().attr("id"));
-				 $(pT).append("<i class='fa fa-star-half-full' />");
+				 $(pT).append("<i style='font-size:18px;color:#000;' class='fa fa-star-half-full' />");
 			 }
 		 }
 	 });
