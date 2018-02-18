@@ -1,14 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html amp lang="en">
   <head>
     <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Nigeria Brands - Consumer Sentiment Index With Location Intelligence</title>
+    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+    #itemlist#
+    </script>
     <meta name="description" content="Best Product Brands in Nigeria">
     <meta name="description" content="Nigeria Brands and Consumer Product Reviews using Location Intelligence">
     <meta name="keywords" content="#keywords#"/>
     #meta#
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="83nC-w7e2m7_pT5ufZqDtiifeb6RKhxlZ13iLZx15_s" />
     <meta name="msvalidate.01" content="9F00944C41870D8D61ACC791DE20213C" />
     <!-- Compiled and minified CSS Materialize -->
@@ -38,9 +43,6 @@
 
     <link href="css/app.css" rel="stylesheet">
     <link href="css/brands.css" rel="stylesheet">
-    <script type="application/ld+json">
-    #itemlist#
-    </script>
   </head>
   <body>
     <div class="containerx">
