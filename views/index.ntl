@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Nigeria Brands - Consumer Sentiment Index With Location Intelligence</title>
+    <meta name="description" content="Best Product Brands in Nigeria">
     <meta name="description" content="Nigeria Brands and Consumer Product Reviews using Location Intelligence">
     <meta name="keywords" content="#keywords#"/>
     #meta#
@@ -38,6 +39,9 @@
     <link href="css/app.css" rel="stylesheet">
     <link href="css/brands.css" rel="stylesheet">
   </head>
+  <script type="application/ld+json">
+  #itemlist#
+  </script>
   <body>
     <div class="containerx">
     <div class="ipl-progress-indicator" id="ipl-progress-indicator">

@@ -1135,7 +1135,336 @@ visibility:hidden;
 
   .aboutProductComments {
     overflow: hidden;
+    width: 60%;
+     float: left;
+     height: 100%;
+     margin: 0 1px 0 1px;
+     background-color: #fafafa;
+      background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+      background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+      background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+      background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+      background-repeat: repeat-x;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+      border: 1px solid #d4d4d4;
+      border-top-width: 1px;
+      border-right-width: 1px;
+      border-bottom-width: 1px;
+      border-left-width: 1px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+      *zoom: 1;
+      padding: 5px;
+      margin-top: 5px;
+  }
+  .aboutProductComments:after
+  {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  }
+
+  /**** Comments Part ****/
+  .individualUserAvatarAndName {
     width: 100%;
+  }
+  .avatar {
+    float: left;
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 15px;
+  }
+  .UserAndComment {
+    width: 100%;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  .DateX {
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .individualComment {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    color: #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+  }
+  .individualCommentBanner {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: #666;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    overflow-wrap: break-word;
+    font-size: 16px;
+  }
+  .individualCommentLoc {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    color: #666;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    overflow-wrap: break-word;
+    font-size: 15px;
+  }
+
+}
+/******* Media Queries For Product Page Ends *******/
+
+/******* Media Queries For Product Page *******/
+@media screen and (max-width: 380px) {
+  .productWrapper {
+    float: left;
+    width: 100%;
+    height: 100%;
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+  }
+  .productpageTitle {
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    color: #4CAF50;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+  }
+  .productDisplay {
+    height: 100%;
+    float: left;
+  }
+
+  .productImage {
+    display:block;
+    margin:auto;
+    margin-top: 8px;
+    /*
+    max-width: 100%;
+    height: auto;
+    */
+  }
+  .productdescriptionProductPage {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 20px;
+    height: auto;
+    width: 27%;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+  .productpagebTag {
+    color: #FF8080;
+    font-family: 'Trebuchet', sans-serif;
+    font-weight: 150;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    text-align: justify;
+    overflow-wrap: break-word;
+  }
+  .productpagebTagCategory {
+    color: #FF8080;
+    font-family: 'Trebuchet', sans-serif;
+    font-weight: 150;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    text-align: justify;
+    overflow-wrap: break-word;
+  }
+  .productdescription {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 16px;
+    height: auto;
+    text-align: left;
+    overflow-wrap: break-word;
+    display: table-cell;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: thin solid red;
+  }
+   .aboutProduct {
+     overflow: hidden;
+     width: 100%;
+      float: left;
+      margin: 0 1px 0 1px;
+      background-color: #fafafa;
+       background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+       background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+       background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+       background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+       background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+       background-repeat: repeat-x;
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+       border: 1px solid #d4d4d4;
+       border-top-width: 1px;
+       border-right-width: 1px;
+       border-bottom-width: 1px;
+       border-left-width: 1px;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       border-radius: 4px;
+       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+       *zoom: 1;
+       padding: 30px;
+       margin-top: 0px;
+  }
+  .product {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 5px;
+    height: 100%;
+    overflow: hidden;
+  }
+  .aboutCompetitor {
+    overflow: hidden;
+    width: 100%;
+     float: left;
+     margin: 0 1px 0 1px;
+     background-color: #fafafa;
+      background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+      background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+      background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+      background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+      background-repeat: repeat-x;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+      border: 1px solid #d4d4d4;
+      border-top-width: 1px;
+      border-right-width: 1px;
+      border-bottom-width: 1px;
+      border-left-width: 1px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+      *zoom: 1;
+      padding: 5px;
+      margin-top: 0px;
+  }
+  .competitor {
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto;
+    text-align: justify;
+    padding: 20px;
+  }
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 45%;
+    margin-top: 20px;
+  }
+  .cl {
+    clear:both;
+  }
+  .ingredientsTitleProductPage {
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    width: 30%;
+    display: table-cell;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .middleRowStarAndIcons {
+    float: left;
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 4px;
+    display: table-cell;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    clear:both;
+  }
+  .mainRatingOnProductPage {
+    fontSize: 24;
+    padding: 4;
+    width: 100%;
+    float: left;
+    display: table-cell;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    clear:both;
+    margin-top: 9px;
+  }
+  .otherIconsOnProductPage {
+    width: 40%;
+    float: left;
+    display: table-cell;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    clear:both;
+  }
+  .cardTitleChildExtendProductPage {
+    float: left;
+    width: 80%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 1px;
+  }
+  .cardTitleInnerExtendedChildrenProductPage {
+    float: left;
+    width: 38%;
+    padding: 7px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+  .textBelowRatingsProductPage {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 5px;
+    left: 5px;
+    text-align: center;
+  }
+  .textBelowRatingTrendsProductPage {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 8px;
+    /*color: #5E35B1;*/
+  }
+  .textBelowRatingSentimentProductPage {
+    font-family: 'Open Sans Condensed', sans-serif;
+    left: 0px;
+    padding: 8px;
+  }
+  .sharebtnProductPage {
+    padding: none;
+  }
+  .shareProductPage {
+    transform: scale(1.6);
+  }
+  .goback {
+    width: 110px;
+    height: 40px;
+  }
+
+  .aboutProductComments {
+    overflow: hidden;
+    width: 60%;
      float: left;
      height: 100%;
      margin: 0 1px 0 1px;
