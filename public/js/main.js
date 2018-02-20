@@ -71,4 +71,8 @@ $(document).ready(function() {
 	 var dataRejection = document.getElementById("AreaRejectionMapElem");
 	 var rejData = $(dataRejection).attr("data");
 	 preMapCallReject(rejData);
+	 // Get Recommendation
+	 var productsrecommendation = document.getElementById("productsrecommendation");
+	 var prRec = $(productsrecommendation).attr("data");
+	 prRecommended(prRec);
 });

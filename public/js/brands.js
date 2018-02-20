@@ -373,3 +373,24 @@
                 }
             });
   }
+  function prRecommended(products) {
+    var load = products.split(',');
+    $.ajax(
+            {
+                url : '/productrecommendation',
+                type: "POST",
+                data: {data1: load[0], data2: load[1], data3: load[2]},
+                beforeSend: function ()
+                {
+                  $('#productsrecommendation').html('<div><i class="fal fa-spinner-third"></i></div>');
+                },
+                success:function(response)
+                {
+                  $('#productsrecommendation').empty().html(response);
+                },
+                error: function()
+                {
+                  $("#productsrecommendation").fadeIn(2000).html('<div style="text-align:center;font-size:16px;color:#5CB85C;font-family: Open Sans, sans-serif;">Operation failed</div>');
+                }
+              });
+  }
