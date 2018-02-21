@@ -45,13 +45,13 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJx99St761cS-K53mOq_1v9S1gPoIpHY4"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
 
-    <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-6672536950725842",
           enable_page_level_ads: true
      });
-</script>-->
+</script>
 
     <!-- Compiled and minified JavaScript Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -94,7 +94,7 @@
     </div>
     <div id="root">
       <div class="productWrapper">
-        <div id="adsenseBanner" class="adsenseBanner" style="width:70%; height: 80px;">
+        <div id="adsenseBanner" class="adsenseBanner">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Nairadays -->
 <ins class="adsbygoogle adsenseBanner"
