@@ -94,10 +94,10 @@
     </div>
     <div id="root">
       <div class="productWrapper">
-        <div id="adsenseBanner" class="hidden-xs hidden-sm" style="width:70%; height: 80px;">
+        <div id="adsenseBanner" class="adsenseBanner" style="width:70%; height: 80px;">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Nairadays -->
-<ins class="adsbygoogle hidden-xs hidden-sm"
+<ins class="adsbygoogle adsenseBanner"
      style="display:block"
      data-ad-client="ca-pub-6672536950725842"
      data-ad-slot="4540347619"></ins>
