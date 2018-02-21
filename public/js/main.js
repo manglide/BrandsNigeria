@@ -75,4 +75,6 @@ $(document).ready(function() {
 	 var productsrecommendation = document.getElementById("productsrecommendation");
 	 var prRec = $(productsrecommendation).attr("data");
 	 prRecommended(prRec);
+
+	 (adsbygoogle = window.adsbygoogle || []).push({});
 });
