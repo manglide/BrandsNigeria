@@ -454,12 +454,12 @@ visibility:hidden;
 .adsenseBanner {
   padding: 5px;
   float: left;
-  width: 100%;
   display:inline-flex;
   flex-wrap:wrap;
   flex-direction:row;
   width:728px;
   height: 90px;
+  margin: auto;
 }
 .aboutProduct {
   overflow: hidden;
