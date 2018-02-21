@@ -46,12 +46,12 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
 
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
+<!--<script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-6672536950725842",
           enable_page_level_ads: true
      });
-</script>
+</script>-->
 
     <!-- Compiled and minified JavaScript Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -95,6 +95,16 @@
     <div id="root">
       <div class="productWrapper">
         <div class="adsenseBanner" id="adsenseBanner">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Nairadays -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6672536950725842"
+     data-ad-slot="4540347619"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>-->
         </div>
           #con#
       </div>
