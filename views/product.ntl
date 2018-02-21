@@ -97,7 +97,7 @@
         <div id="adsenseBanner" class="adsenseBanner">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Below Right Sidebar -->
-<ins class="adsbygoogle adsenseBanner"
+<ins class="adsbygoogle leaderboard-lg hidden-md mrec-sm mobile-xs"
      style="display:block"
      data-ad-client="ca-pub-6672536950725842"
      data-ad-slot="4537524011"
