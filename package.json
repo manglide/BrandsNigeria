@@ -28,6 +28,7 @@
     "express": "^4.16.2",
     "material-ui": "^1.0.0-beta.33",
     "material-ui-icons": "^1.0.0-beta.17",
+    "mysql": "^2.17.1",
     "react": "^16.3.0-alpha.0",
     "react-dom": "^16.3.0-alpha.0",
     "react-star-rating-component": "^1.3.0"
@@ -43,6 +44,6 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "mocha": "^5.0.0",
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.19.1"
   }
 }
