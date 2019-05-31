@@ -73,7 +73,7 @@
       <hr />
       <footer id="footer" class="footer">
       	<div class="copyright">
-      		  Copyright © 2018<br />BrandsNigeria is a subsidiary of Ask - Tech Solutions. | Nigeria's first Big Data and Analytics Company.
+      		  Copyright © <script>document.write(new Date().getFullYear())</script><br />BrandsNigeria is a subsidiary of Ask - Tech Solutions. | Nigeria's first Big Data and Analytics Company.
       	</div>
       </footer>
     </div>
