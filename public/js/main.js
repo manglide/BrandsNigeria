@@ -58,11 +58,29 @@ $(document).ready(function() {
 	 // Get Data For Competitor 1
 	 var firstCompetitor = document.getElementById("firstCompetitor");
 	 var comp1data = $(firstCompetitor).attr("data");
-	 loadCompetitors1(comp1data);
+	 comp1data = comp1data.trim();
+	 if (/\s/.test(comp1data)) {
+    	var cleanURL = comp1data.split(/\s/);
+			cleanURL = cleanURL.join("-");
+			cleanURL = cleanURL.toLocaleLowerCase();
+			loadCompetitors1(cleanURL);
+	} else {
+			comp1data = comp1data.toLocaleLowerCase();
+			loadCompetitors1(comp1data);
+	}
 	 // Get Data For Competitor 1
 	 var secondCompetitor = document.getElementById("secondCompetitor");
 	 var comp2data = $(secondCompetitor).attr("data");
-	 loadCompetitors2(comp2data);
+	 comp2data = comp2data.trim();
+	 if (/\s/.test(comp2data)) {
+    	var cleanURL2 = comp2data.split(/\s/);
+			cleanURL2 = cleanURL2.join("-");
+			cleanURL2 = cleanURL2.toLocaleLowerCase();
+			loadCompetitors1(cleanURL2);
+	 } else {
+			comp2data = comp2data.toLocaleLowerCase();
+			loadCompetitors1(comp2data);
+	 }
 	 // Get Data Product ID for Map from Element AreaAcceptanceMapElem
 	 var dataAcceptance = document.getElementById("AreaAcceptanceMapElem");
 	 var accData = $(dataAcceptance).attr("data");

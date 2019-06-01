@@ -62,7 +62,6 @@
     el.innerHTML = "<div class='noLocationDataFound'>No Location Data Found</div>";
   }
   function preMapCallAccept(pid) {
-    console.log(pid);
     $.ajax(
             {
                 url : '/areasofacceptance',
