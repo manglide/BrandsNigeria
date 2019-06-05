@@ -458,6 +458,7 @@ mainprice.entry {
   display:inline-flex;
   flex-wrap:wrap;
   flex-direction:row;
+  margin-top: 50px;
 }
 .productWrapper:after
 {
@@ -923,6 +924,7 @@ visibility:hidden;
     display:inline-flex;
     flex-wrap:wrap;
     flex-direction:row;
+    margin-top: 50px;
   }
   .productpageTitle {
     text-align: justify;
@@ -1256,6 +1258,7 @@ visibility:hidden;
     display:inline-flex;
     flex-wrap:wrap;
     flex-direction:row;
+    margin-top: 50px;
   }
   .productpageTitle {
     text-align: justify;
