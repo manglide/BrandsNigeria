@@ -20,6 +20,11 @@ mainprice.entry {
   margin: 0 auto;
 }
 
+.containerXZ {
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
 .vap {
   height:25px;
 }
@@ -204,7 +209,7 @@ mainprice.entry {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
     *zoom: 1;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .cardTitleParent {
@@ -898,6 +903,10 @@ visibility:hidden;
 }
 /******* Media Queries For Product Page *******/
 @media screen and (max-width: 400px) {
+  .containerXZ {
+    margin: 0 auto;
+    margin-top: 120px;
+  }
   .productWrapper {
     float: left;
     width: 100%;
@@ -1227,6 +1236,10 @@ visibility:hidden;
 
 /******* Media Queries For Product Page *******/
 @media screen and (max-width: 380px) {
+  .containerXZ {
+    margin: 0 auto;
+    margin-top: 90px;
+  }
   .productWrapper {
     float: left;
     width: 100%;
