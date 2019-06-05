@@ -25,6 +25,16 @@ mainprice.entry {
   margin-top: 90px;
 }
 
+.navlinks a {
+  /*color:#563D7C;*/
+  color: #28a745;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+}
+.navouter {
+  background-color: #28a745;
+  border-bottom: thin solid #28a745;
+}
 .vap {
   height:25px;
 }

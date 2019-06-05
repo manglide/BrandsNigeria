@@ -63,9 +63,9 @@
               </ul>
             </div>
           </nav>-->
-          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between" style="background-color: #28a745;">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between navouter">
             <a class="navbar-brand" href="/">
-              <div class="goback">
+              <div class="goback" title="Brands Nigeria">
                       <button type="button" class="btn btn-success navbar-btn">
                           BN
                       </button>
@@ -75,7 +75,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+              <div class="navbar-nav navlinks">
                 <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="/about">About</a>
                 <a class="nav-item nav-link active" href="/feedback">Feedback</a>
