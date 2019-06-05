@@ -474,7 +474,10 @@ visibility:hidden;
   flex-direction:row;
   width:auto;
   /*height: 90px;*/
+  margin-top: 40px;
   margin: auto;
+  border: thin solid red;
+  position: absolute;;
 }
 .aboutProduct {
   overflow: hidden;
@@ -1014,7 +1017,7 @@ visibility:hidden;
        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
        *zoom: 1;
-       padding: 30px;
+       padding: 5px;
        margin-top: 0px;
   }
   .product {
@@ -1347,7 +1350,7 @@ visibility:hidden;
        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
        *zoom: 1;
-       padding: 30px;
+       padding: 5px;
        margin-top: 0px;
   }
   .product {
