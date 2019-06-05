@@ -473,11 +473,7 @@ visibility:hidden;
   flex-wrap:wrap;
   flex-direction:row;
   width:auto;
-  /*height: 90px;*/
-  margin-top: 40px;
   margin: auto;
-  border: thin solid red;
-  position: absolute;;
 }
 .aboutProduct {
   overflow: hidden;
