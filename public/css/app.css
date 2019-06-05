@@ -476,6 +476,11 @@ visibility:hidden;
   width:auto;
   margin: auto;
 }
+.adsenseBanner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .aboutProduct {
   overflow: hidden;
   width: 60%;
@@ -917,6 +922,20 @@ visibility:hidden;
     margin: 0 auto;
     margin-top: 120px;
   }
+  .adsenseBanner {
+    padding: 5px;
+    float: left;
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width:auto;
+    margin: auto;
+  }
+  .adsenseBanner::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .productWrapper {
     float: left;
     width: 100%;
@@ -1250,6 +1269,20 @@ visibility:hidden;
   .containerXZ {
     margin: 0 auto;
     margin-top: 90px;
+  }
+  .adsenseBanner {
+    padding: 5px;
+    float: left;
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width:auto;
+    margin: auto;
+  }
+  .adsenseBanner::after {
+    content: "";
+    display: table;
+    clear: both;
   }
   .productWrapper {
     float: left;
