@@ -521,6 +521,7 @@ visibility:hidden;
 .aboutProductComments {
   overflow: hidden;
   width: 100%;
+  display: block;
    float: left;
    height: 100%;
    margin: 0 1px 0 1px;
@@ -704,7 +705,8 @@ visibility:hidden;
   font-weight: 50;
   font-size: 12px;
   height: auto;
-  width: 95%;
+  width: 100%;
+  display: block;
   margin-top: 20px;
   float: left;
 }
@@ -720,7 +722,7 @@ visibility:hidden;
   width: 100%;
   margin-top: 20px;
   float: left;
-  text-align: left;
+  text-align: justify;
 }
 
 .ingredientsTitle {
@@ -974,7 +976,7 @@ visibility:hidden;
     font-size: 20px;
     height: auto;
     width: 27%;
-    text-align: left;
+    text-align: justify;
     overflow-wrap: break-word;
   }
   .productpagebTag {
@@ -1088,7 +1090,8 @@ visibility:hidden;
     font-weight: 50;
     font-size: 12px;
     height: auto;
-    width: 45%;
+    width: 100%;
+    display: block;
     margin-top: 20px;
   }
   .cl {
@@ -1175,7 +1178,8 @@ visibility:hidden;
 
   .aboutProductComments {
     overflow: hidden;
-    width: 60%;
+    width: 100%;
+    display: block;
      float: left;
      height: 100%;
      margin: 0 1px 0 1px;
@@ -1322,7 +1326,7 @@ visibility:hidden;
     font-size: 20px;
     height: auto;
     width: 27%;
-    text-align: left;
+    text-align: justify;
     overflow-wrap: break-word;
   }
   .productpagebTag {
@@ -1436,7 +1440,8 @@ visibility:hidden;
     font-weight: 50;
     font-size: 12px;
     height: auto;
-    width: 45%;
+    width: 100%;
+    display: block;
     margin-top: 20px;
   }
   .cl {
@@ -1523,7 +1528,8 @@ visibility:hidden;
 
   .aboutProductComments {
     overflow: hidden;
-    width: 60%;
+    width: 100%;
+    display: block;
      float: left;
      height: 100%;
      margin: 0 1px 0 1px;
