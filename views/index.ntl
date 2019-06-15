@@ -56,22 +56,6 @@
     </div>
     <div class="containerX">
       <div class="navbar-fixed">
-        <!-- <nav>
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Brands Nigeria</a>
-            <a href="#" data-activates="brandsmenu" class="button-collapse"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a class="dropdown-button" href="#!" data-activates="brandsmenu"><i class="material-icons right">more_vert</i></a></li>
-              </ul>
-              <ul id="brandsmenu" class="dropdown-content">
-                <li><a href="/">Home</a></li>
-                <li class="divider"></li>
-                <li><a href="/about">About</a></li>
-                <li class="divider"></li>
-                <li><a href="/feedback">Feedback</a></li>
-              </ul>
-            </div>
-          </nav>-->
           <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between navouter">
             <a class="navbar-brand" href="#">
               <div class="goback" title="Brands Nigeria">
