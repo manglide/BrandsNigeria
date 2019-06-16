@@ -615,6 +615,17 @@ visibility:hidden;
 .productDisplay {
   height: 100%;
   float: left;
+  display: -webkit-flex; /* Safari */
+  display: flex; /* Standard syntax */
+  width: 100%;
+}
+.productDisplay div {
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* Standard syntax */
+}
+.productInner {
+
 }
 .productpageTitle {
   text-align: justify;
@@ -673,6 +684,7 @@ visibility:hidden;
   height: auto;
   text-align: justify;
   overflow-wrap: break-word;
+  max-width: 50%;
 }
 .smallRatingDiv {
   color: #FF8080;
@@ -964,6 +976,18 @@ visibility:hidden;
   .productDisplay {
     height: 100%;
     float: left;
+    display: -webkit-flex; /* Safari */
+    display: flex; /* Standard syntax */
+    width: 100%;
+  }
+  .productDisplay div {
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+  }
+
+  .productInner {
+
   }
 
   .productImage {
@@ -980,8 +1004,8 @@ visibility:hidden;
     font-weight: 50;
     font-size: 20px;
     height: auto;
-    width: 27%;
-    text-align: justify;
+    max-width: 50%;
+    text-align: left;
     overflow-wrap: break-word;
   }
   .productpagebTag {
@@ -1098,9 +1122,9 @@ visibility:hidden;
     font-weight: 50;
     font-size: 12px;
     height: auto;
-    width: 100%;
-    display: block;
+    width: 43%;
     margin-top: 20px;
+    position: relative;
   }
   .cl {
     clear:both;
@@ -1186,7 +1210,7 @@ visibility:hidden;
 
   .aboutProductComments {
     overflow: hidden;
-    width: 100%;
+    max-width: 95%;
     display: block;
      float: left;
      height: 100%;
@@ -1211,7 +1235,6 @@ visibility:hidden;
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
       *zoom: 1;
-      padding: 5px;
       margin-top: 5px;
   }
   .aboutProductComments:after
@@ -1318,6 +1341,19 @@ visibility:hidden;
   .productDisplay {
     height: 100%;
     float: left;
+    display: -webkit-flex; /* Safari */
+    display: flex; /* Standard syntax */
+    width: 100%;
+  }
+
+  .productDisplay div {
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+  }
+
+  .productInner div {
+
   }
 
   .productImage {
@@ -1334,8 +1370,8 @@ visibility:hidden;
     font-weight: 50;
     font-size: 20px;
     height: auto;
-    width: 27%;
-    text-align: justify;
+    max-width: 50%;
+    text-align: left;
     overflow-wrap: break-word;
   }
   .productpagebTag {
@@ -1452,9 +1488,9 @@ visibility:hidden;
     font-weight: 50;
     font-size: 12px;
     height: auto;
-    width: 100%;
-    display: block;
+    width: 43%;
     margin-top: 20px;
+    position: relative;
   }
   .cl {
     clear:both;
@@ -1540,7 +1576,7 @@ visibility:hidden;
 
   .aboutProductComments {
     overflow: hidden;
-    width: 100%;
+    max-width: 95%;
     display: block;
      float: left;
      height: 100%;
@@ -1565,7 +1601,6 @@ visibility:hidden;
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
       *zoom: 1;
-      padding: 5px;
       margin-top: 5px;
   }
   .aboutProductComments:after
@@ -1750,4 +1785,112 @@ nav .brand-logo {
 .mobile-lg { width:320px; height:50px; }
 .skyscraper-lg { width:120px; height:600px; }
 .banner-lg { width:468px; height:60px; }
+}
+
+@media screen and (min-width: 400px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 43%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 37%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 42%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 44%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 25%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .customerreviews {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+  }
 }
