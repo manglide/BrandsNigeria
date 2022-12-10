@@ -25,7 +25,7 @@
   "dependencies": {
     "ampify": "^0.2.6",
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "material-ui": "^1.0.0-beta.33",
     "material-ui-icons": "^1.0.0-beta.17",
     "mysql": "^2.17.1",
